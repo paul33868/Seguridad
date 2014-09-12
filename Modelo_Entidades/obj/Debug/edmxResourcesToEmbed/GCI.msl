@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GCIModeloStoreContainer" CdmEntityContainer="GCIEntidades">
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Usuario)">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre_apellido" ColumnName="nombre_apellido" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grupos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Grupo)">
+        <MappingFragment StoreEntitySet="Grupos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perfiles">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Perfil)">
+        <MappingFragment StoreEntitySet="Perfiles">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permisos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Permiso)">
+        <MappingFragment StoreEntitySet="Permisos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Formularios">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Formulario)">
+        <MappingFragment StoreEntitySet="Formularios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="nombredemuestra" ColumnName="nombredemuestra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modulos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Modulo)">
+        <MappingFragment StoreEntitySet="Modulos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UsuariosGrupos" TypeName="GCIModelo.UsuarioGrupo" StoreEntitySet="UsuariosGrupos">
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="id" ColumnName="Usuarios_id" />
+      </EndProperty>
+      <EndProperty Name="Grupo">
+        <ScalarProperty Name="id" ColumnName="Grupos_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PerfilesGrupos" TypeName="GCIModelo.PerfilGrupo" StoreEntitySet="Perfiles">
+      <EndProperty Name="Grupo">
+        <ScalarProperty Name="id" ColumnName="Grupo_id" />
+      </EndProperty>
+      <EndProperty Name="Perfil">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PerfilesPermisos" TypeName="GCIModelo.PerfilPermiso" StoreEntitySet="Perfiles">
+      <EndProperty Name="Permiso">
+        <ScalarProperty Name="id" ColumnName="Permiso_id" />
+      </EndProperty>
+      <EndProperty Name="Perfil">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PerfilesFormularios" TypeName="GCIModelo.PerfilFormulario" StoreEntitySet="Perfiles">
+      <EndProperty Name="Formulario">
+        <ScalarProperty Name="id" ColumnName="Formulario_id" />
+      </EndProperty>
+      <EndProperty Name="Perfil">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FormulariosModulos" TypeName="GCIModelo.FormularioModulo" StoreEntitySet="Formularios">
+      <EndProperty Name="Modulo">
+        <ScalarProperty Name="id" ColumnName="Modulo_id" />
+      </EndProperty>
+      <EndProperty Name="Formulario">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

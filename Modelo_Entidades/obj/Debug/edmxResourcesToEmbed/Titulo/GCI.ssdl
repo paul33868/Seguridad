@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GCIModelo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="GCIModeloStoreContainer">
+    <EntitySet Name="Usuarios" EntityType="GCIModelo.Store.Usuarios" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Grupos" EntityType="GCIModelo.Store.Grupos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Perfiles" EntityType="GCIModelo.Store.Perfiles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Permisos" EntityType="GCIModelo.Store.Permisos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Formularios" EntityType="GCIModelo.Store.Formularios" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Modulos" EntityType="GCIModelo.Store.Modulos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Profesionales" EntityType="GCIModelo.Store.Profesionales" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CtasCtes" EntityType="GCIModelo.Store.CtasCtes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Movimientos" EntityType="GCIModelo.Store.Movimientos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Conceptos" EntityType="GCIModelo.Store.Conceptos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipos_Movimientos" EntityType="GCIModelo.Store.Tipos_Movimientos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Auditorias" EntityType="GCIModelo.Store.Auditorias" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comprobantes" EntityType="GCIModelo.Store.Comprobantes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Localidades" EntityType="GCIModelo.Store.Localidades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Provincias" EntityType="GCIModelo.Store.Provincias" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Estados" EntityType="GCIModelo.Store.Estados" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipos_Matriculas" EntityType="GCIModelo.Store.Tipos_Matriculas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Colegios" EntityType="GCIModelo.Store.Colegios" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Historiales" EntityType="GCIModelo.Store.Historiales" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Titulos" EntityType="GCIModelo.Store.Titulos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Universidades" EntityType="GCIModelo.Store.Universidades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Jurisdicciones" EntityType="GCIModelo.Store.Jurisdicciones" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Modalidades" EntityType="GCIModelo.Store.Modalidades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Niveles" EntityType="GCIModelo.Store.Niveles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Especialidades" EntityType="GCIModelo.Store.Especialidades" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Planes" EntityType="GCIModelo.Store.Planes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipos_Certificados" EntityType="GCIModelo.Store.Tipos_Certificados" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Direcciones" EntityType="GCIModelo.Store.Direcciones" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipos_Documentos" EntityType="GCIModelo.Store.Tipos_Documentos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Matriculas" EntityType="GCIModelo.Store.Matriculas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Legajos_Academicos" EntityType="GCIModelo.Store.Legajos_Academicos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Conceptos_Cuota" EntityType="GCIModelo.Store.Conceptos_Cuota" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comprobantes_Factura" EntityType="GCIModelo.Store.Comprobantes_Factura" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UsuariosGrupos" EntityType="GCIModelo.Store.UsuarioGrupo" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_UsuariosGrupos_Usuario" Association="GCIModelo.Store.FK_UsuarioGrupo_Usuario">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="UsuarioGrupo" EntitySet="UsuariosGrupos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsuariosGrupos_Grupo" Association="GCIModelo.Store.FK_UsuarioGrupo_Grupo">
+      <End Role="Grupo" EntitySet="Grupos" />
+      <End Role="UsuarioGrupo" EntitySet="UsuariosGrupos" />
+    </AssociationSet>
+    <AssociationSet Name="PerfilesGrupos" Association="GCIModelo.Store.PerfilGrupo">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Grupo" EntitySet="Grupos" />
+    </AssociationSet>
+    <AssociationSet Name="PerfilesPermisos" Association="GCIModelo.Store.PerfilPermiso">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Permiso" EntitySet="Permisos" />
+    </AssociationSet>
+    <AssociationSet Name="PerfilesFormularios" Association="GCIModelo.Store.PerfilFormulario">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Formulario" EntitySet="Formularios" />
+    </AssociationSet>
+    <AssociationSet Name="FormulariosModulos" Association="GCIModelo.Store.FormularioModulo">
+      <End Role="Formulario" EntitySet="Formularios" />
+      <End Role="Modulo" EntitySet="Modulos" />
+    </AssociationSet>
+    <AssociationSet Name="CtasCtesProfesionales" Association="GCIModelo.Store.CtaCteProfesional">
+      <End Role="CtaCte" EntitySet="CtasCtes" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="MovimientosCtaCtes" Association="GCIModelo.Store.MovimientoCtaCte">
+      <End Role="Movimiento" EntitySet="Movimientos" />
+      <End Role="CtaCte" EntitySet="CtasCtes" />
+    </AssociationSet>
+    <AssociationSet Name="MovimientosConceptos" Association="GCIModelo.Store.MovimientoConcepto">
+      <End Role="Movimiento" EntitySet="Movimientos" />
+      <End Role="Concepto" EntitySet="Conceptos" />
+    </AssociationSet>
+    <AssociationSet Name="Tipo_MovimientoMovimiento" Association="GCIModelo.Store.Tipo_MovimientoMovimiento">
+      <End Role="Tipo_Movimiento" EntitySet="Tipos_Movimientos" />
+      <End Role="Movimiento" EntitySet="Movimientos" />
+    </AssociationSet>
+    <AssociationSet Name="ComprobantesMovimientos" Association="GCIModelo.Store.ComprobanteMovimiento">
+      <End Role="Comprobante" EntitySet="Comprobantes" />
+      <End Role="Movimiento" EntitySet="Movimientos" />
+    </AssociationSet>
+    <AssociationSet Name="ProvinciasLocalidades" Association="GCIModelo.Store.ProvinciaLocalidades">
+      <End Role="Provincia" EntitySet="Provincias" />
+      <End Role="Localidad" EntitySet="Localidades" />
+    </AssociationSet>
+    <AssociationSet Name="ProfesionalesHistoriales" Association="GCIModelo.Store.ProfesionalHistoriales">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Historial" EntitySet="Historiales" />
+    </AssociationSet>
+    <AssociationSet Name="ProfesionalesDirecciones" Association="GCIModelo.Store.ProfesionalDirecciones">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Direccion" EntitySet="Direcciones" />
+    </AssociationSet>
+    <AssociationSet Name="ProfesionalesMatriculas" Association="GCIModelo.Store.ProfesionalMatricula">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Matricula" EntitySet="Matriculas" />
+    </AssociationSet>
+    <AssociationSet Name="Tipos_DocumentosProfesionales" Association="GCIModelo.Store.Tipo_DocumentoProfesional">
+      <End Role="Tipo_Documento" EntitySet="Tipos_Documentos" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="EstadosProfesionales" Association="GCIModelo.Store.EstadoProfesional">
+      <End Role="Estado" EntitySet="Estados" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="ColegiosProfesionales" Association="GCIModelo.Store.ColegioProfesional">
+      <End Role="Colegio" EntitySet="Colegios" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="Tipos_MatriculasProfesionales" Association="GCIModelo.Store.Tipo_MatriculaProfesional">
+      <End Role="Tipo_Matricula" EntitySet="Tipos_Matriculas" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="JurisdiccionTitulo" Association="GCIModelo.Store.JurisdiccionTitulo">
+      <End Role="Jurisdiccion" EntitySet="Jurisdicciones" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="ModalidadTitulo" Association="GCIModelo.Store.ModalidadTitulo">
+      <End Role="Modalidad" EntitySet="Modalidades" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="NivelTitulo" Association="GCIModelo.Store.NivelTitulo">
+      <End Role="Nivel" EntitySet="Niveles" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="EspecialidadesTitulos" Association="GCIModelo.Store.EspecialidadTitulo">
+      <End Role="Especialidad" EntitySet="Especialidades" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="UniversidadesTitulos" Association="GCIModelo.Store.UniversidadTitulo">
+      <End Role="Universidad" EntitySet="Universidades" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="LocalidadesDirecciones" Association="GCIModelo.Store.LocalidadDireccion">
+      <End Role="Localidad" EntitySet="Localidades" />
+      <End Role="Direccion" EntitySet="Direcciones" />
+    </AssociationSet>
+    <AssociationSet Name="MatriculaLegajo_Academico" Association="GCIModelo.Store.MatriculaLegajo_Academico">
+      <End Role="Matricula" EntitySet="Matriculas" />
+      <End Role="Legajo_Academico" EntitySet="Legajos_Academicos" />
+    </AssociationSet>
+    <AssociationSet Name="PlanesLegajos_Academicos" Association="GCIModelo.Store.PlanLegajo_Academico">
+      <End Role="Plan" EntitySet="Planes" />
+      <End Role="Legajo_Academico" EntitySet="Legajos_Academicos" />
+    </AssociationSet>
+    <AssociationSet Name="TitulosLegajos_Academicos" Association="GCIModelo.Store.TituloLegajo_Academico">
+      <End Role="Titulo" EntitySet="Titulos" />
+      <End Role="Legajo_Academico" EntitySet="Legajos_Academicos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cuota_inherits_Concepto" Association="GCIModelo.Store.FK_Cuota_inherits_Concepto">
+      <End Role="Concepto" EntitySet="Conceptos" />
+      <End Role="Cuota" EntitySet="Conceptos_Cuota" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_inherits_Comprobante" Association="GCIModelo.Store.FK_Factura_inherits_Comprobante">
+      <End Role="Comprobante" EntitySet="Comprobantes" />
+      <End Role="Factura" EntitySet="Comprobantes_Factura" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_apellido" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="clave" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="estado" Type="bit" Nullable="false" />
+    <Property Name="usuario" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grupos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Perfiles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Grupo_id" Type="int" Nullable="false" />
+    <Property Name="Permiso_id" Type="int" Nullable="false" />
+    <Property Name="Formulario_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Permisos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Formularios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="nombredemuestra" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Modulo_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Modulos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Profesionales">
+    <Key>
+      <PropertyRef Name="dni" />
+    </Key>
+    <Property Name="dni" Type="int" Nullable="false" />
+    <Property Name="nombre_apellido" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="fecha_nacimiento" Type="datetime" Nullable="false" />
+    <Property Name="sexo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="telefono" Type="int" Nullable="false" />
+    <Property Name="celular" Type="int" Nullable="false" />
+    <Property Name="email1" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="email2" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="observaciones" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="lugar_trabajo" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="convenio_año" Type="int" Nullable="true" />
+    <Property Name="titulo_a_mostrar" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Tipo_Documento_id" Type="int" Nullable="false" />
+    <Property Name="Estado_id" Type="int" Nullable="false" />
+    <Property Name="Colegio_id" Type="int" Nullable="true" />
+    <Property Name="Tipo_Matricula_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CtasCtes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="saldo" Type="decimal" Nullable="false" DefaultValue="0" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="Profesional_dni" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Movimientos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="importe" Type="decimal" Nullable="false" />
+    <Property Name="CtaCte_id" Type="int" Nullable="false" />
+    <Property Name="Concepto_id" Type="int" Nullable="false" />
+    <Property Name="Tipo_Movimiento_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Conceptos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tipos_Movimientos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Auditorias">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usuario" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="accion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comprobantes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Movimiento_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Localidades">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="cp" Type="int" Nullable="false" />
+    <Property Name="Provincia_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Provincias">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Estados">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tipos_Matriculas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Colegios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Historiales">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="estado" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="tipo_matricula" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="observaciones" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Profesional_dni" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Titulos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ley_aprobacion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="res_coneau" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="validez" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="aprobacion_cie" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="articulacion" Type="bit" Nullable="false" />
+    <Property Name="Jurisdiccion_id" Type="int" Nullable="false" />
+    <Property Name="Modalidad_id" Type="int" Nullable="false" />
+    <Property Name="Nivel_id" Type="int" Nullable="false" />
+    <Property Name="Especialidad_id" Type="int" Nullable="false" />
+    <Property Name="Universidad_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Universidades">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Jurisdicciones">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Modalidades">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Niveles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Especialidades">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Planes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="año" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ordenanza" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="incumbencia" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tipos_Certificados">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="texto" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Direcciones">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="direccion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Profesional_dni" Type="int" Nullable="false" />
+    <Property Name="Localidad_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tipos_Documentos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Matriculas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="icie" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="certificado" Type="bit" Nullable="false" />
+    <Property Name="fecha_doc" Type="datetime" Nullable="false" />
+    <Property Name="incumbencia" Type="bit" Nullable="false" />
+    <Property Name="plan" Type="bit" Nullable="false" />
+    <Property Name="analitico" Type="bit" Nullable="false" />
+    <Property Name="Profesional_dni" Type="int" Nullable="false" />
+    <Property Name="Legajo_Academico_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Legajos_Academicos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Plan_id" Type="int" Nullable="false" />
+    <Property Name="Titulo_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Conceptos_Cuota">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="valor" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="vto_1" Type="datetime" Nullable="false" />
+    <Property Name="vto_2" Type="datetime" Nullable="false" />
+    <Property Name="intereses" Type="decimal" Nullable="false" />
+    <Property Name="numero" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comprobantes_Factura">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="numero" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cantidad" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="precio_unitario" Type="decimal" Nullable="false" />
+    <Property Name="importe" Type="decimal" Nullable="false" />
+    <Property Name="total" Type="decimal" Nullable="false" />
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UsuarioGrupo">
+    <Key>
+      <PropertyRef Name="Usuarios_id" />
+      <PropertyRef Name="Grupos_id" />
+    </Key>
+    <Property Name="Usuarios_id" Type="int" Nullable="false" />
+    <Property Name="Grupos_id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PerfilGrupo">
+    <End Role="Perfil" Type="GCIModelo.Store.Perfiles" Multiplicity="*" />
+    <End Role="Grupo" Type="GCIModelo.Store.Grupos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Perfil">
+        <PropertyRef Name="Grupo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PerfilPermiso">
+    <End Role="Perfil" Type="GCIModelo.Store.Perfiles" Multiplicity="*" />
+    <End Role="Permiso" Type="GCIModelo.Store.Permisos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Permiso">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Perfil">
+        <PropertyRef Name="Permiso_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PerfilFormulario">
+    <End Role="Perfil" Type="GCIModelo.Store.Perfiles" Multiplicity="*" />
+    <End Role="Formulario" Type="GCIModelo.Store.Formularios" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Formulario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Perfil">
+        <PropertyRef Name="Formulario_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FormularioModulo">
+    <End Role="Formulario" Type="GCIModelo.Store.Formularios" Multiplicity="*" />
+    <End Role="Modulo" Type="GCIModelo.Store.Modulos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Modulo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Formulario">
+        <PropertyRef Name="Modulo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CtaCteProfesional">
+    <End Role="CtaCte" Type="GCIModelo.Store.CtasCtes" Multiplicity="*" />
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Profesional">
+        <PropertyRef Name="dni" />
+      </Principal>
+      <Dependent Role="CtaCte">
+        <PropertyRef Name="Profesional_dni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MovimientoCtaCte">
+    <End Role="Movimiento" Type="GCIModelo.Store.Movimientos" Multiplicity="*" />
+    <End Role="CtaCte" Type="GCIModelo.Store.CtasCtes" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="CtaCte">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="CtaCte_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MovimientoConcepto">
+    <End Role="Movimiento" Type="GCIModelo.Store.Movimientos" Multiplicity="*" />
+    <End Role="Concepto" Type="GCIModelo.Store.Conceptos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Concepto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="Concepto_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Tipo_MovimientoMovimiento">
+    <End Role="Tipo_Movimiento" Type="GCIModelo.Store.Tipos_Movimientos" Multiplicity="1" />
+    <End Role="Movimiento" Type="GCIModelo.Store.Movimientos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Movimiento">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Movimiento">
+        <PropertyRef Name="Tipo_Movimiento_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ComprobanteMovimiento">
+    <End Role="Comprobante" Type="GCIModelo.Store.Comprobantes" Multiplicity="*" />
+    <End Role="Movimiento" Type="GCIModelo.Store.Movimientos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Movimiento">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Comprobante">
+        <PropertyRef Name="Movimiento_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProvinciaLocalidades">
+    <End Role="Provincia" Type="GCIModelo.Store.Provincias" Multiplicity="1" />
+    <End Role="Localidad" Type="GCIModelo.Store.Localidades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Provincia">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Localidad">
+        <PropertyRef Name="Provincia_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProfesionalHistoriales">
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="1" />
+    <End Role="Historial" Type="GCIModelo.Store.Historiales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profesional">
+        <PropertyRef Name="dni" />
+      </Principal>
+      <Dependent Role="Historial">
+        <PropertyRef Name="Profesional_dni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProfesionalDirecciones">
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="1" />
+    <End Role="Direccion" Type="GCIModelo.Store.Direcciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profesional">
+        <PropertyRef Name="dni" />
+      </Principal>
+      <Dependent Role="Direccion">
+        <PropertyRef Name="Profesional_dni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProfesionalMatricula">
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="1" />
+    <End Role="Matricula" Type="GCIModelo.Store.Matriculas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profesional">
+        <PropertyRef Name="dni" />
+      </Principal>
+      <Dependent Role="Matricula">
+        <PropertyRef Name="Profesional_dni" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Tipo_DocumentoProfesional">
+    <End Role="Tipo_Documento" Type="GCIModelo.Store.Tipos_Documentos" Multiplicity="1" />
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Documento">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Profesional">
+        <PropertyRef Name="Tipo_Documento_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EstadoProfesional">
+    <End Role="Estado" Type="GCIModelo.Store.Estados" Multiplicity="1" />
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Profesional">
+        <PropertyRef Name="Estado_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ColegioProfesional">
+    <End Role="Colegio" Type="GCIModelo.Store.Colegios" Multiplicity="0..1" />
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Colegio">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Profesional">
+        <PropertyRef Name="Colegio_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Tipo_MatriculaProfesional">
+    <End Role="Tipo_Matricula" Type="GCIModelo.Store.Tipos_Matriculas" Multiplicity="1" />
+    <End Role="Profesional" Type="GCIModelo.Store.Profesionales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Matricula">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Profesional">
+        <PropertyRef Name="Tipo_Matricula_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="JurisdiccionTitulo">
+    <End Role="Jurisdiccion" Type="GCIModelo.Store.Jurisdicciones" Multiplicity="1" />
+    <End Role="Titulo" Type="GCIModelo.Store.Titulos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jurisdiccion">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Titulo">
+        <PropertyRef Name="Jurisdiccion_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ModalidadTitulo">
+    <End Role="Modalidad" Type="GCIModelo.Store.Modalidades" Multiplicity="1" />
+    <End Role="Titulo" Type="GCIModelo.Store.Titulos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modalidad">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Titulo">
+        <PropertyRef Name="Modalidad_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="NivelTitulo">
+    <End Role="Nivel" Type="GCIModelo.Store.Niveles" Multiplicity="1" />
+    <End Role="Titulo" Type="GCIModelo.Store.Titulos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nivel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Titulo">
+        <PropertyRef Name="Nivel_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EspecialidadTitulo">
+    <End Role="Especialidad" Type="GCIModelo.Store.Especialidades" Multiplicity="1" />
+    <End Role="Titulo" Type="GCIModelo.Store.Titulos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Especialidad">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Titulo">
+        <PropertyRef Name="Especialidad_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UniversidadTitulo">
+    <End Role="Universidad" Type="GCIModelo.Store.Universidades" Multiplicity="1" />
+    <End Role="Titulo" Type="GCIModelo.Store.Titulos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universidad">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Titulo">
+        <PropertyRef Name="Universidad_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LocalidadDireccion">
+    <End Role="Localidad" Type="GCIModelo.Store.Localidades" Multiplicity="1" />
+    <End Role="Direccion" Type="GCIModelo.Store.Direcciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Localidad">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Direccion">
+        <PropertyRef Name="Localidad_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MatriculaLegajo_Academico">
+    <End Role="Matricula" Type="GCIModelo.Store.Matriculas" Multiplicity="*" />
+    <End Role="Legajo_Academico" Type="GCIModelo.Store.Legajos_Academicos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Legajo_Academico">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Matricula">
+        <PropertyRef Name="Legajo_Academico_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PlanLegajo_Academico">
+    <End Role="Plan" Type="GCIModelo.Store.Planes" Multiplicity="1" />
+    <End Role="Legajo_Academico" Type="GCIModelo.Store.Legajos_Academicos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Plan">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Legajo_Academico">
+        <PropertyRef Name="Plan_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TituloLegajo_Academico">
+    <End Role="Titulo" Type="GCIModelo.Store.Titulos" Multiplicity="1" />
+    <End Role="Legajo_Academico" Type="GCIModelo.Store.Legajos_Academicos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titulo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Legajo_Academico">
+        <PropertyRef Name="Titulo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioGrupo_Usuario">
+    <End Role="Usuario" Type="GCIModelo.Store.Usuarios" Multiplicity="1" />
+    <End Role="UsuarioGrupo" Type="GCIModelo.Store.UsuarioGrupo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UsuarioGrupo">
+        <PropertyRef Name="Usuarios_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioGrupo_Grupo">
+    <End Role="UsuarioGrupo" Type="GCIModelo.Store.UsuarioGrupo" Multiplicity="*" />
+    <End Role="Grupo" Type="GCIModelo.Store.Grupos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UsuarioGrupo">
+        <PropertyRef Name="Grupos_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cuota_inherits_Concepto">
+    <End Role="Concepto" Type="GCIModelo.Store.Conceptos" Multiplicity="1" />
+    <End Role="Cuota" Type="GCIModelo.Store.Conceptos_Cuota" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Concepto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Cuota">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Factura_inherits_Comprobante">
+    <End Role="Comprobante" Type="GCIModelo.Store.Comprobantes" Multiplicity="1" />
+    <End Role="Factura" Type="GCIModelo.Store.Comprobantes_Factura" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Comprobante">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

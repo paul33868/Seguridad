@@ -1,0 +1,21 @@
+F:\GCI nuevo\Controladora\bin\Release\Controladora.dll
+F:\GCI nuevo\Controladora\bin\Release\Controladora.pdb
+F:\GCI nuevo\Controladora\bin\Release\Modelo_Entidades.dll
+F:\GCI nuevo\Controladora\bin\Release\Modelo_Entidades.pdb
+F:\GCI nuevo\Controladora\obj\Release\ResolveAssemblyReference.cache
+F:\GCI nuevo\Controladora\obj\Release\Controladora.dll
+F:\GCI nuevo\Controladora\obj\Release\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Release\Controladora.dll
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Release\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Release\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Release\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\obj\Release\Controladora.dll
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\obj\Release\Controladora.pdb
+F:\UAI\TCyTD\GCI\Controladora\bin\Release\Controladora.dll
+F:\UAI\TCyTD\GCI\Controladora\bin\Release\Controladora.pdb
+F:\UAI\TCyTD\GCI\Controladora\bin\Release\Modelo_Entidades.dll
+F:\UAI\TCyTD\GCI\Controladora\bin\Release\Modelo_Entidades.pdb
+F:\UAI\TCyTD\GCI\Controladora\obj\Release\ResolveAssemblyReference.cache
+F:\UAI\TCyTD\GCI\Controladora\obj\Release\Controladora.dll
+F:\UAI\TCyTD\GCI\Controladora\obj\Release\Controladora.pdb

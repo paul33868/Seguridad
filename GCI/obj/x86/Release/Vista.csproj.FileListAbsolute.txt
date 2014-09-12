@@ -1,0 +1,117 @@
+F:\GCI nuevo\GCI\bin\Release\GCI.exe.config
+F:\GCI nuevo\GCI\bin\Release\GCI.exe
+F:\GCI nuevo\GCI\bin\Release\GCI.pdb
+F:\GCI nuevo\GCI\bin\Release\Controladora.dll
+F:\GCI nuevo\GCI\bin\Release\Modelo_Entidades.dll
+F:\GCI nuevo\GCI\bin\Release\Controladora.pdb
+F:\GCI nuevo\GCI\bin\Release\Modelo_Entidades.pdb
+F:\GCI nuevo\GCI\obj\x86\Release\ResolveAssemblyReference.cache
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.Botonera1.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmAuditoria.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmAuditorias.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmCuotas.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmRecibos.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmSeleccionCuotas.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmExpediente.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmExpedientes.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmSeleccionProfesionales.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmRecuperarClave.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmPlanesTitulo.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmMatriculas.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmTitulos.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmProfesional.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmProfesionales.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmTitulo.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmGrupo.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmGrupos.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmLogin.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmPerfil.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmPerfiles.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmPrincipal.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmUsuario.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.FrmUsuarios.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.Properties.Resources.resources
+F:\GCI nuevo\GCI\obj\x86\Release\GenerateResource.read.1.tlog
+F:\GCI nuevo\GCI\obj\x86\Release\GenerateResource.write.1.tlog
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.exe
+F:\GCI nuevo\GCI\obj\x86\Release\GCI.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\GCI.exe.config
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\GCI.exe
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\GCI.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\Controladora.dll
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Release\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.Botonera1.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmAuditoria.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmAuditorias.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmCuotas.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmRecibos.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmSeleccionCuotas.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmExpediente.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmExpedientes.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmRecuperarClave.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmPlanesTitulo.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmMatriculas.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmTitulos.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmProfesional.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmProfesionales.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmTitulo.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmGrupo.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmGrupos.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmLogin.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmPerfil.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmPerfiles.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmPrincipal.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmUsuario.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.FrmUsuarios.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.Properties.Resources.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.exe
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Release\GCI.pdb
+F:\UAI\TCyTD\GCI\GCI\bin\Release\GCI.exe.config
+F:\UAI\TCyTD\GCI\GCI\bin\Release\GCI.exe
+F:\UAI\TCyTD\GCI\GCI\bin\Release\GCI.pdb
+F:\UAI\TCyTD\GCI\GCI\bin\Release\Controladora.dll
+F:\UAI\TCyTD\GCI\GCI\bin\Release\Modelo_Entidades.dll
+F:\UAI\TCyTD\GCI\GCI\bin\Release\Controladora.pdb
+F:\UAI\TCyTD\GCI\GCI\bin\Release\Modelo_Entidades.pdb
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\ResolveAssemblyReference.cache
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.Botonera1.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmAuditoria.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmAuditorias.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmCuotas.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmRecibos.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmSeleccionCuotas.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmExpediente.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmExpedientes.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmSeleccionComitentes.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmImprimirRecibo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmImprimirBoleta.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmImprimirTitulo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmSeleccionProfesionales.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmRecuperarClave.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmPlanesTitulo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmMatriculas.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmTitulos.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmProfesional.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmProfesionales.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmTitulo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmGrupo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmGrupos.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmLogin.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmPerfil.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmPerfiles.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmPrincipal.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmUsuario.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.FrmUsuarios.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.Properties.Resources.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GenerateResource.read.1.tlog
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GenerateResource.write.1.tlog
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\RdlCompile.cache
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\RdlCompile.compiled
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.exe
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Release\GCI.pdb

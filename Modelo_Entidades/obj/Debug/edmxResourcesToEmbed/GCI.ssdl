@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GCIModelo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="GCIModeloStoreContainer">
+    <EntitySet Name="Usuarios" EntityType="GCIModelo.Store.Usuarios" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Grupos" EntityType="GCIModelo.Store.Grupos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Perfiles" EntityType="GCIModelo.Store.Perfiles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Permisos" EntityType="GCIModelo.Store.Permisos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Formularios" EntityType="GCIModelo.Store.Formularios" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Modulos" EntityType="GCIModelo.Store.Modulos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UsuariosGrupos" EntityType="GCIModelo.Store.UsuarioGrupo" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_UsuariosGrupos_Usuario" Association="GCIModelo.Store.FK_UsuarioGrupo_Usuario">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="UsuarioGrupo" EntitySet="UsuariosGrupos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsuariosGrupos_Grupo" Association="GCIModelo.Store.FK_UsuarioGrupo_Grupo">
+      <End Role="Grupo" EntitySet="Grupos" />
+      <End Role="UsuarioGrupo" EntitySet="UsuariosGrupos" />
+    </AssociationSet>
+    <AssociationSet Name="PerfilesGrupos" Association="GCIModelo.Store.PerfilGrupo">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Grupo" EntitySet="Grupos" />
+    </AssociationSet>
+    <AssociationSet Name="PerfilesPermisos" Association="GCIModelo.Store.PerfilPermiso">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Permiso" EntitySet="Permisos" />
+    </AssociationSet>
+    <AssociationSet Name="PerfilesFormularios" Association="GCIModelo.Store.PerfilFormulario">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Formulario" EntitySet="Formularios" />
+    </AssociationSet>
+    <AssociationSet Name="FormulariosModulos" Association="GCIModelo.Store.FormularioModulo">
+      <End Role="Formulario" EntitySet="Formularios" />
+      <End Role="Modulo" EntitySet="Modulos" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_apellido" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="clave" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="estado" Type="bit" Nullable="false" />
+    <Property Name="usuario" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grupos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Perfiles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Grupo_id" Type="int" Nullable="false" />
+    <Property Name="Permiso_id" Type="int" Nullable="false" />
+    <Property Name="Formulario_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Permisos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Formularios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="nombredemuestra" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Modulo_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Modulos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UsuarioGrupo">
+    <Key>
+      <PropertyRef Name="Usuarios_id" />
+      <PropertyRef Name="Grupos_id" />
+    </Key>
+    <Property Name="Usuarios_id" Type="int" Nullable="false" />
+    <Property Name="Grupos_id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PerfilGrupo">
+    <End Role="Perfil" Type="GCIModelo.Store.Perfiles" Multiplicity="*" />
+    <End Role="Grupo" Type="GCIModelo.Store.Grupos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Perfil">
+        <PropertyRef Name="Grupo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PerfilPermiso">
+    <End Role="Perfil" Type="GCIModelo.Store.Perfiles" Multiplicity="*" />
+    <End Role="Permiso" Type="GCIModelo.Store.Permisos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Permiso">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Perfil">
+        <PropertyRef Name="Permiso_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PerfilFormulario">
+    <End Role="Perfil" Type="GCIModelo.Store.Perfiles" Multiplicity="*" />
+    <End Role="Formulario" Type="GCIModelo.Store.Formularios" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Formulario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Perfil">
+        <PropertyRef Name="Formulario_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FormularioModulo">
+    <End Role="Formulario" Type="GCIModelo.Store.Formularios" Multiplicity="*" />
+    <End Role="Modulo" Type="GCIModelo.Store.Modulos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Modulo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Formulario">
+        <PropertyRef Name="Modulo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioGrupo_Usuario">
+    <End Role="Usuario" Type="GCIModelo.Store.Usuarios" Multiplicity="1" />
+    <End Role="UsuarioGrupo" Type="GCIModelo.Store.UsuarioGrupo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UsuarioGrupo">
+        <PropertyRef Name="Usuarios_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioGrupo_Grupo">
+    <End Role="UsuarioGrupo" Type="GCIModelo.Store.UsuarioGrupo" Multiplicity="*" />
+    <End Role="Grupo" Type="GCIModelo.Store.Grupos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UsuarioGrupo">
+        <PropertyRef Name="Grupos_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

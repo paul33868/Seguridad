@@ -1,0 +1,594 @@
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.FrmCuotasProfesional.resources
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.FrmGestionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI\GCI\GCI\obj\x86\Debug\GCI.pdb
+D:\UAI\Trabajo de Campo\GCI\GCI\GCI\bin\Debug\GCI.exe.config
+D:\UAI\Trabajo de Campo\GCI\GCI\GCI\obj\x86\Debug\GCI.exe
+D:\UAI\Trabajo de Campo\GCI\GCI\GCI\obj\x86\Debug\GCI.pdb
+D:\UAI\GCI\GCI\bin\Debug\GCI.exe.config
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.exe
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.pdb
+D:\UAI\GCI\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\UAI\GCI\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\UAI\GCI\GCI\bin\Debug\GCI.exe
+D:\UAI\GCI\GCI\bin\Debug\GCI.pdb
+D:\UAI\GCI\GCI\bin\Debug\Controladora.dll
+D:\UAI\GCI\GCI\bin\Debug\Modelo_Entidades.dll
+D:\UAI\GCI\GCI\bin\Debug\Controladora.pdb
+D:\UAI\GCI\GCI\bin\Debug\Modelo_Entidades.pdb
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.Botonera1.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+D:\UAI\GCI\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.Botonera1.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\UAI\3º Año\TC y TD\GCI\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\GCI.exe.config
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\GCI.exe
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\GCI.pdb
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Controladora.dll
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Modelo_Entidades.dll
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Controladora.pdb
+F:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Modelo_Entidades.pdb
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\Vista.csprojResolveAssemblyReference.cache
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.Botonera1.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\Vista.csproj.GenerateResource.Cache
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.exe
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Navegador\Desktop\GCI\GCI\bin\Debug\GCI.exe.config
+C:\Users\Navegador\Desktop\GCI\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Navegador\Desktop\GCI\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\GCI.exe.config
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\GCI.exe
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\GCI.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Navegador\Desktop\GCI nuevo\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\GCI nuevo\GCI\bin\Debug\GCI.exe.config
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.exe
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.pdb
+F:\GCI nuevo\GCI\bin\Debug\GCI.exe
+F:\GCI nuevo\GCI\bin\Debug\GCI.pdb
+F:\GCI nuevo\GCI\bin\Debug\Controladora.dll
+F:\GCI nuevo\GCI\bin\Debug\Modelo_Entidades.dll
+F:\GCI nuevo\GCI\bin\Debug\Controladora.pdb
+F:\GCI nuevo\GCI\bin\Debug\Modelo_Entidades.pdb
+F:\GCI nuevo\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.Botonera1.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+F:\GCI nuevo\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\GCI nuevo\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI nuevo con bd\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI con startegy\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\GCI.exe.config
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\GCI.exe
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\GCI.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Navegador\Desktop\GCI Actual\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI Actual\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI Actual\GCI\obj\x86\Debug\GCI.pdb
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+F:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\GCI.exe.config
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.exe
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.pdb
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\GCI.exe
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\GCI.pdb
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\Controladora.dll
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\Modelo_Entidades.dll
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\Controladora.pdb
+F:\UAI\TCyTD\GCI\GCI\bin\Debug\Modelo_Entidades.pdb
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.Botonera1.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionComitentes.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirRecibo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirTitulo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\RdlCompile.cache
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmSeleccionComitentes.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmImprimirRecibo.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmImprimirTitulo.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\RdlCompile.cache
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI 1\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI 1\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmSeleccionComitentes.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmImprimirRecibo.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmImprimirTitulo.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\RdlCompile.cache
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pablo\Desktop\GCI  Back up\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta_Prof.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmCambiarClave.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirCertificado_I.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta_Prof.resources
+F:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirCertificado.resources
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\GCI.exe.config
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.exe
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.pdb
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\GCI.exe
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\GCI.pdb
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\Controladora.dll
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\Modelo_Entidades.dll
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\Controladora.pdb
+G:\UAI\TCyTD\GCI\GCI\bin\Debug\Modelo_Entidades.pdb
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.Botonera1.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmCambiarClave.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirCertificado_I.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionComitentes.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirRecibo.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta_Prof.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirCertificado.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirTitulo.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\RdlCompile.cache
+G:\UAI\TCyTD\GCI\GCI\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmAuditoriaCuotas.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmEstadisticas.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmManual.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Prof_Est.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Prof_TM.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Mat_Esp.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Tit_Uni.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Tit_Esp.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Cuotas_Esp.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Cuotas_Desc.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionExpedientes.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmComitente.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmComitentes.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Expte_Esp.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Expte_Monto_Esp.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmListado_Expte_Obra.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmTarea.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmTareas.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmCambiarClave.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirCertificado_I.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmCuotas.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmRecibos.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionCuotas.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmExpediente.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmExpedientes.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionComitentes.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirRecibo.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirBoleta_Prof.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirCertificado.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmImprimirTitulo.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmSeleccionProfesionales.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPlanesTitulo.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmMatriculas.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmTitulos.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmProfesional.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmProfesionales.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmTitulo.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\RdlCompile.cache
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Desktop\GCI\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\GCI.exe.config
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\GCI.exe
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\GCI.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\Controladora.dll
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\Vista.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.Botonera1.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmCambiarClave.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmRecuperarClave.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmGrupo.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmGrupos.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmLogin.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmPerfil.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmPerfiles.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmPrincipal.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmUsuario.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmUsuarios.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.Properties.Resources.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.exe
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmAuditoria.resources
+C:\Users\Pablo\Downloads\Modulo de Seguridad\GCI\obj\x86\Debug\GCI.FrmAuditorias.resources

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GCIModelo" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="GCIEntidades" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Usuarios" EntityType="GCIModelo.Usuario" />
+    <EntitySet Name="Grupos" EntityType="GCIModelo.Grupo" />
+    <AssociationSet Name="UsuariosGrupos" Association="GCIModelo.UsuarioGrupo">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Grupo" EntitySet="Grupos" />
+    </AssociationSet>
+    <EntitySet Name="Perfiles" EntityType="GCIModelo.Perfil" />
+    <AssociationSet Name="PerfilesGrupos" Association="GCIModelo.PerfilGrupo">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Grupo" EntitySet="Grupos" />
+    </AssociationSet>
+    <EntitySet Name="Permisos" EntityType="GCIModelo.Permiso" />
+    <AssociationSet Name="PerfilesPermisos" Association="GCIModelo.PerfilPermiso">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Permiso" EntitySet="Permisos" />
+    </AssociationSet>
+    <EntitySet Name="Formularios" EntityType="GCIModelo.Formulario" />
+    <AssociationSet Name="PerfilesFormularios" Association="GCIModelo.PerfilFormulario">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Formulario" EntitySet="Formularios" />
+    </AssociationSet>
+    <EntitySet Name="Modulos" EntityType="GCIModelo.Modulo" />
+    <AssociationSet Name="FormulariosModulos" Association="GCIModelo.FormularioModulo">
+      <End Role="Formulario" EntitySet="Formularios" />
+      <End Role="Modulo" EntitySet="Modulos" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_apellido" Nullable="false" Type="String" />
+    <Property Type="String" Name="clave" Nullable="false" />
+    <Property Name="email" Nullable="false" Type="String" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="String" Name="usuario" Nullable="false" />
+    <NavigationProperty Name="Grupos" Relationship="GCIModelo.UsuarioGrupo" FromRole="Usuario" ToRole="Grupo" />
+  </EntityType>
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Usuarios" Relationship="GCIModelo.UsuarioGrupo" FromRole="Grupo" ToRole="Usuario" />
+    <NavigationProperty Name="Perfiles" Relationship="GCIModelo.PerfilGrupo" FromRole="Grupo" ToRole="Perfil" />
+  </EntityType>
+  <Association Name="UsuarioGrupo">
+    <End Type="GCIModelo.Usuario" Role="Usuario" Multiplicity="*" />
+    <End Type="GCIModelo.Grupo" Role="Grupo" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Perfil">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Grupo" Relationship="GCIModelo.PerfilGrupo" FromRole="Perfil" ToRole="Grupo" />
+    <NavigationProperty Name="Permiso" Relationship="GCIModelo.PerfilPermiso" FromRole="Perfil" ToRole="Permiso" />
+    <NavigationProperty Name="Formulario" Relationship="GCIModelo.PerfilFormulario" FromRole="Perfil" ToRole="Formulario" />
+  </EntityType>
+  <Association Name="PerfilGrupo">
+    <End Type="GCIModelo.Perfil" Role="Perfil" Multiplicity="*" />
+    <End Type="GCIModelo.Grupo" Role="Grupo" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Permiso">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Perfiles" Relationship="GCIModelo.PerfilPermiso" FromRole="Permiso" ToRole="Perfil" />
+  </EntityType>
+  <Association Name="PerfilPermiso">
+    <End Type="GCIModelo.Perfil" Role="Perfil" Multiplicity="*" />
+    <End Type="GCIModelo.Permiso" Role="Permiso" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Formulario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Perfiles" Relationship="GCIModelo.PerfilFormulario" FromRole="Formulario" ToRole="Perfil" />
+    <NavigationProperty Name="Modulo" Relationship="GCIModelo.FormularioModulo" FromRole="Formulario" ToRole="Modulo" />
+    <Property Type="String" Name="nombredemuestra" Nullable="false" />
+  </EntityType>
+  <Association Name="PerfilFormulario">
+    <End Type="GCIModelo.Perfil" Role="Perfil" Multiplicity="*" />
+    <End Type="GCIModelo.Formulario" Role="Formulario" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Modulo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Formularios" Relationship="GCIModelo.FormularioModulo" FromRole="Modulo" ToRole="Formulario" />
+  </EntityType>
+  <Association Name="FormularioModulo">
+    <End Type="GCIModelo.Formulario" Role="Formulario" Multiplicity="*" />
+    <End Type="GCIModelo.Modulo" Role="Modulo" Multiplicity="1" />
+  </Association>
+</Schema>

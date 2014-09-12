@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GCIModelo" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="GCIEntidades" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Usuarios" EntityType="GCIModelo.Usuario" />
+    <EntitySet Name="Grupos" EntityType="GCIModelo.Grupo" />
+    <AssociationSet Name="UsuariosGrupos" Association="GCIModelo.UsuarioGrupo">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Grupo" EntitySet="Grupos" />
+    </AssociationSet>
+    <EntitySet Name="Perfiles" EntityType="GCIModelo.Perfil" />
+    <AssociationSet Name="PerfilesGrupos" Association="GCIModelo.PerfilGrupo">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Grupo" EntitySet="Grupos" />
+    </AssociationSet>
+    <EntitySet Name="Permisos" EntityType="GCIModelo.Permiso" />
+    <AssociationSet Name="PerfilesPermisos" Association="GCIModelo.PerfilPermiso">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Permiso" EntitySet="Permisos" />
+    </AssociationSet>
+    <EntitySet Name="Formularios" EntityType="GCIModelo.Formulario" />
+    <AssociationSet Name="PerfilesFormularios" Association="GCIModelo.PerfilFormulario">
+      <End Role="Perfil" EntitySet="Perfiles" />
+      <End Role="Formulario" EntitySet="Formularios" />
+    </AssociationSet>
+    <EntitySet Name="Modulos" EntityType="GCIModelo.Modulo" />
+    <AssociationSet Name="FormulariosModulos" Association="GCIModelo.FormularioModulo">
+      <End Role="Formulario" EntitySet="Formularios" />
+      <End Role="Modulo" EntitySet="Modulos" />
+    </AssociationSet>
+    <EntitySet Name="Profesionales" EntityType="GCIModelo.Profesional" />
+    <EntitySet Name="CtasCtes" EntityType="GCIModelo.CtaCte" />
+    <AssociationSet Name="CtasCtesProfesionales" Association="GCIModelo.CtaCteProfesional">
+      <End Role="CtaCte" EntitySet="CtasCtes" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <EntitySet Name="Movimientos" EntityType="GCIModelo.Movimiento" />
+    <AssociationSet Name="MovimientosCtaCtes" Association="GCIModelo.MovimientoCtaCte">
+      <End Role="Movimiento" EntitySet="Movimientos" />
+      <End Role="CtaCte" EntitySet="CtasCtes" />
+    </AssociationSet>
+    <EntitySet Name="Tipos_Movimientos" EntityType="GCIModelo.Tipo_Movimiento" />
+    <AssociationSet Name="Tipo_MovimientoMovimiento" Association="GCIModelo.Tipo_MovimientoMovimiento">
+      <End Role="Tipo_Movimiento" EntitySet="Tipos_Movimientos" />
+      <End Role="Movimiento" EntitySet="Movimientos" />
+    </AssociationSet>
+    <EntitySet Name="Auditorias" EntityType="GCIModelo.Auditoria" />
+    <EntitySet Name="Comprobantes" EntityType="GCIModelo.Comprobante" />
+    <AssociationSet Name="ComprobantesMovimientos" Association="GCIModelo.ComprobanteMovimiento">
+      <End Role="Comprobante" EntitySet="Comprobantes" />
+      <End Role="Movimiento" EntitySet="Movimientos" />
+    </AssociationSet>
+    <EntitySet Name="Localidades" EntityType="GCIModelo.Localidad" />
+    <EntitySet Name="Provincias" EntityType="GCIModelo.Provincia" />
+    <AssociationSet Name="ProvinciasLocalidades" Association="GCIModelo.ProvinciaLocalidades">
+      <End Role="Provincia" EntitySet="Provincias" />
+      <End Role="Localidad" EntitySet="Localidades" />
+    </AssociationSet>
+    <EntitySet Name="Estados" EntityType="GCIModelo.Estado" />
+    <EntitySet Name="Tipos_Matriculas" EntityType="GCIModelo.Tipo_Matricula" />
+    <EntitySet Name="Colegios" EntityType="GCIModelo.Colegio" />
+    <EntitySet Name="Historiales" EntityType="GCIModelo.Historial" />
+    <AssociationSet Name="ProfesionalesHistoriales" Association="GCIModelo.ProfesionalHistoriales">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Historial" EntitySet="Historiales" />
+    </AssociationSet>
+    <EntitySet Name="Titulos" EntityType="GCIModelo.Titulo" />
+    <EntitySet Name="Universidades" EntityType="GCIModelo.Universidad" />
+    <EntitySet Name="Jurisdicciones" EntityType="GCIModelo.Jurisdiccion" />
+    <EntitySet Name="Modalidades" EntityType="GCIModelo.Modalidad" />
+    <EntitySet Name="Niveles" EntityType="GCIModelo.Nivel" />
+    <EntitySet Name="Especialidades" EntityType="GCIModelo.Especialidad" />
+    <EntitySet Name="Planes" EntityType="GCIModelo.Plan" />
+    <EntitySet Name="Tipos_Certificados" EntityType="GCIModelo.Tipo_Certificado" />
+    <EntitySet Name="Direcciones" EntityType="GCIModelo.Direccion" />
+    <AssociationSet Name="ProfesionalesDirecciones" Association="GCIModelo.ProfesionalDirecciones">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Direccion" EntitySet="Direcciones" />
+    </AssociationSet>
+    <EntitySet Name="Tipos_Documentos" EntityType="GCIModelo.Tipo_Documento" />
+    <EntitySet Name="Matriculas" EntityType="GCIModelo.Matricula" />
+    <AssociationSet Name="ProfesionalesMatriculas" Association="GCIModelo.ProfesionalMatricula">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Matricula" EntitySet="Matriculas" />
+    </AssociationSet>
+    <AssociationSet Name="Tipos_DocumentosProfesionales" Association="GCIModelo.Tipo_DocumentoProfesional">
+      <End Role="Tipo_Documento" EntitySet="Tipos_Documentos" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="EstadosProfesionales" Association="GCIModelo.EstadoProfesional">
+      <End Role="Estado" EntitySet="Estados" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="ColegiosProfesionales" Association="GCIModelo.ColegioProfesional">
+      <End Role="Colegio" EntitySet="Colegios" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="Tipos_MatriculasProfesionales" Association="GCIModelo.Tipo_MatriculaProfesional">
+      <End Role="Tipo_Matricula" EntitySet="Tipos_Matriculas" />
+      <End Role="Profesional" EntitySet="Profesionales" />
+    </AssociationSet>
+    <AssociationSet Name="JurisdiccionTitulo" Association="GCIModelo.JurisdiccionTitulo">
+      <End Role="Jurisdiccion" EntitySet="Jurisdicciones" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="ModalidadTitulo" Association="GCIModelo.ModalidadTitulo">
+      <End Role="Modalidad" EntitySet="Modalidades" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="NivelTitulo" Association="GCIModelo.NivelTitulo">
+      <End Role="Nivel" EntitySet="Niveles" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="EspecialidadesTitulos" Association="GCIModelo.EspecialidadTitulo">
+      <End Role="Especialidad" EntitySet="Especialidades" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="UniversidadesTitulos" Association="GCIModelo.UniversidadTitulo">
+      <End Role="Universidad" EntitySet="Universidades" />
+      <End Role="Titulo" EntitySet="Titulos" />
+    </AssociationSet>
+    <AssociationSet Name="LocalidadesDirecciones" Association="GCIModelo.LocalidadDireccion">
+      <End Role="Localidad" EntitySet="Localidades" />
+      <End Role="Direccion" EntitySet="Direcciones" />
+    </AssociationSet>
+    <EntitySet Name="Legajos_Academicos" EntityType="GCIModelo.Legajo_Academico" />
+    <AssociationSet Name="MatriculaLegajo_Academico" Association="GCIModelo.MatriculaLegajo_Academico">
+      <End Role="Matricula" EntitySet="Matriculas" />
+      <End Role="Legajo_Academico" EntitySet="Legajos_Academicos" />
+    </AssociationSet>
+    <AssociationSet Name="PlanesLegajos_Academicos" Association="GCIModelo.PlanLegajo_Academico">
+      <End Role="Plan" EntitySet="Planes" />
+      <End Role="Legajo_Academico" EntitySet="Legajos_Academicos" />
+    </AssociationSet>
+    <AssociationSet Name="TitulosLegajos_Academicos" Association="GCIModelo.TituloLegajo_Academico">
+      <End Role="Titulo" EntitySet="Titulos" />
+      <End Role="Legajo_Academico" EntitySet="Legajos_Academicos" />
+    </AssociationSet>
+    <EntitySet Name="Alteradores" EntityType="GCIModelo.Alterador" />
+    <EntitySet Name="Comitentes" EntityType="GCIModelo.Comitente" />
+    <EntitySet Name="Tareas" EntityType="GCIModelo.Tarea" />
+    <EntitySet Name="Liquidaciones" EntityType="GCIModelo.Liquidacion" />
+    <AssociationSet Name="ExpedienteLiquidacion" Association="GCIModelo.ExpedienteLiquidacion">
+      <End Role="Expediente" EntitySet="Expedientes" />
+      <End Role="Liquidacion" EntitySet="Liquidaciones" />
+    </AssociationSet>
+    <AssociationSet Name="ProfesionalExpediente" Association="GCIModelo.ProfesionalExpediente">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Expediente" EntitySet="Expedientes" />
+    </AssociationSet>
+    <EntitySet Name="Cursos" EntityType="GCIModelo.Curso" />
+    <EntitySet Name="Comisiones" EntityType="GCIModelo.Comision" />
+    <AssociationSet Name="ComisionCurso" Association="GCIModelo.ComisionCurso">
+      <End Role="Comision" EntitySet="Comisiones" />
+      <End Role="Curso" EntitySet="Cursos" />
+    </AssociationSet>
+    <EntitySet Name="Docentes" EntityType="GCIModelo.Docente" />
+    <AssociationSet Name="DocenteCurso" Association="GCIModelo.DocenteCurso">
+      <End Role="Docente" EntitySet="Docentes" />
+      <End Role="Curso" EntitySet="Cursos" />
+    </AssociationSet>
+    <EntitySet Name="Clases" EntityType="GCIModelo.Clase" />
+    <AssociationSet Name="CursoClase" Association="GCIModelo.CursoClase">
+      <End Role="Curso" EntitySet="Cursos" />
+      <End Role="Clase" EntitySet="Clases" />
+    </AssociationSet>
+    <EntitySet Name="Asistencias" EntityType="GCIModelo.Asistencia" />
+    <AssociationSet Name="ProfesionalAsistencia" Association="GCIModelo.ProfesionalAsistencia">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Asistencia" EntitySet="Asistencias" />
+    </AssociationSet>
+    <AssociationSet Name="ClaseAsistencia" Association="GCIModelo.ClaseAsistencia">
+      <End Role="Clase" EntitySet="Clases" />
+      <End Role="Asistencia" EntitySet="Asistencias" />
+    </AssociationSet>
+    <EntitySet Name="Expedientes" EntityType="GCIModelo.Expediente" />
+    <EntitySet Name="Cuotas" EntityType="GCIModelo.Cuota" />
+    <AssociationSet Name="ProfesionalCuota" Association="GCIModelo.ProfesionalCuota">
+      <End Role="Profesional" EntitySet="Profesionales" />
+      <End Role="Cuota" EntitySet="Cuotas" />
+    </AssociationSet>
+    <AssociationSet Name="ComitenteExpediente" Association="GCIModelo.ComitenteExpediente">
+      <End Role="Comitente" EntitySet="Comitentes" />
+      <End Role="Expediente" EntitySet="Expedientes" />
+    </AssociationSet>
+    <AssociationSet Name="TareaExpediente" Association="GCIModelo.TareaExpediente">
+      <End Role="Tarea" EntitySet="Tareas" />
+      <End Role="Expediente" EntitySet="Expedientes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_apellido" Nullable="false" Type="String" />
+    <Property Type="String" Name="clave" Nullable="false" />
+    <Property Name="email" Nullable="false" Type="String" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="String" Name="usuario" Nullable="false" />
+    <NavigationProperty Name="Grupos" Relationship="GCIModelo.UsuarioGrupo" FromRole="Usuario" ToRole="Grupo" />
+  </EntityType>
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Usuarios" Relationship="GCIModelo.UsuarioGrupo" FromRole="Grupo" ToRole="Usuario" />
+    <NavigationProperty Name="Perfiles" Relationship="GCIModelo.PerfilGrupo" FromRole="Grupo" ToRole="Perfil" />
+  </EntityType>
+  <Association Name="UsuarioGrupo">
+    <End Type="GCIModelo.Usuario" Role="Usuario" Multiplicity="*" />
+    <End Type="GCIModelo.Grupo" Role="Grupo" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Perfil">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Grupo" Relationship="GCIModelo.PerfilGrupo" FromRole="Perfil" ToRole="Grupo" />
+    <NavigationProperty Name="Permiso" Relationship="GCIModelo.PerfilPermiso" FromRole="Perfil" ToRole="Permiso" />
+    <NavigationProperty Name="Formulario" Relationship="GCIModelo.PerfilFormulario" FromRole="Perfil" ToRole="Formulario" />
+  </EntityType>
+  <Association Name="PerfilGrupo">
+    <End Type="GCIModelo.Perfil" Role="Perfil" Multiplicity="*" />
+    <End Type="GCIModelo.Grupo" Role="Grupo" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Permiso">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Perfiles" Relationship="GCIModelo.PerfilPermiso" FromRole="Permiso" ToRole="Perfil" />
+  </EntityType>
+  <Association Name="PerfilPermiso">
+    <End Type="GCIModelo.Perfil" Role="Perfil" Multiplicity="*" />
+    <End Type="GCIModelo.Permiso" Role="Permiso" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Formulario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Perfiles" Relationship="GCIModelo.PerfilFormulario" FromRole="Formulario" ToRole="Perfil" />
+    <NavigationProperty Name="Modulo" Relationship="GCIModelo.FormularioModulo" FromRole="Formulario" ToRole="Modulo" />
+    <Property Type="String" Name="nombredemuestra" Nullable="false" />
+  </EntityType>
+  <Association Name="PerfilFormulario">
+    <End Type="GCIModelo.Perfil" Role="Perfil" Multiplicity="*" />
+    <End Type="GCIModelo.Formulario" Role="Formulario" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Modulo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Formularios" Relationship="GCIModelo.FormularioModulo" FromRole="Modulo" ToRole="Formulario" />
+  </EntityType>
+  <Association Name="FormularioModulo">
+    <End Type="GCIModelo.Formulario" Role="Formulario" Multiplicity="*" />
+    <End Type="GCIModelo.Modulo" Role="Modulo" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Profesional">
+    <Key>
+      <PropertyRef Name="dni" />
+    </Key>
+    <Property Type="Int32" Name="dni" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="String" Name="nombre_apellido" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_nacimiento" Nullable="false" />
+    <Property Type="String" Name="sexo" Nullable="false" />
+    <Property Type="Int32" Name="telefono" Nullable="false" />
+    <Property Type="Int32" Name="celular" Nullable="false" />
+    <Property Type="String" Name="email1" Nullable="false" />
+    <Property Type="String" Name="email2" Nullable="false" />
+    <Property Type="String" Name="observaciones" Nullable="false" />
+    <NavigationProperty Name="CtaCte" Relationship="GCIModelo.CtaCteProfesional" FromRole="Profesional" ToRole="CtaCte" />
+    <Property Type="String" Name="lugar_trabajo" />
+    <Property Type="Int32" Name="convenio_año" />
+    <NavigationProperty Name="Historiales" Relationship="GCIModelo.ProfesionalHistoriales" FromRole="Profesional" ToRole="Historial" />
+    <NavigationProperty Name="Direcciones" Relationship="GCIModelo.ProfesionalDirecciones" FromRole="Profesional" ToRole="Direccion" />
+    <Property Type="String" Name="titulo_a_mostrar" Nullable="false" MaxLength="Max" />
+    <NavigationProperty Name="Matriculas" Relationship="GCIModelo.ProfesionalMatricula" FromRole="Profesional" ToRole="Matricula" />
+    <NavigationProperty Name="Tipo_Documento" Relationship="GCIModelo.Tipo_DocumentoProfesional" FromRole="Profesional" ToRole="Tipo_Documento" />
+    <NavigationProperty Name="Estado" Relationship="GCIModelo.EstadoProfesional" FromRole="Profesional" ToRole="Estado" />
+    <NavigationProperty Name="Colegio" Relationship="GCIModelo.ColegioProfesional" FromRole="Profesional" ToRole="Colegio" />
+    <NavigationProperty Name="Tipo_Matricula" Relationship="GCIModelo.Tipo_MatriculaProfesional" FromRole="Profesional" ToRole="Tipo_Matricula" />
+    <NavigationProperty Name="Expedientes" Relationship="GCIModelo.ProfesionalExpediente" FromRole="Profesional" ToRole="Expediente" />
+    <NavigationProperty Name="Asistencias" Relationship="GCIModelo.ProfesionalAsistencia" FromRole="Profesional" ToRole="Asistencia" />
+    <NavigationProperty Name="Cuota" Relationship="GCIModelo.ProfesionalCuota" FromRole="Profesional" ToRole="Cuota" />
+  </EntityType>
+  <EntityType Name="CtaCte">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Decimal" Name="saldo" Nullable="false" DefaultValue="0" />
+    <NavigationProperty Name="Profesional" Relationship="GCIModelo.CtaCteProfesional" FromRole="CtaCte" ToRole="Profesional" />
+    <NavigationProperty Name="Movimientos" Relationship="GCIModelo.MovimientoCtaCte" FromRole="CtaCte" ToRole="Movimiento" />
+  </EntityType>
+  <Association Name="CtaCteProfesional">
+    <End Type="GCIModelo.CtaCte" Role="CtaCte" Multiplicity="1" />
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Movimiento">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <Property Type="Double" Name="importe" Nullable="false" />
+    <NavigationProperty Name="CtaCte" Relationship="GCIModelo.MovimientoCtaCte" FromRole="Movimiento" ToRole="CtaCte" />
+    <NavigationProperty Name="Tipo_Movimiento" Relationship="GCIModelo.Tipo_MovimientoMovimiento" FromRole="Movimiento" ToRole="Tipo_Movimiento" />
+    <NavigationProperty Name="Comprobante" Relationship="GCIModelo.ComprobanteMovimiento" FromRole="Movimiento" ToRole="Comprobante" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+  </EntityType>
+  <Association Name="MovimientoCtaCte">
+    <End Type="GCIModelo.Movimiento" Role="Movimiento" Multiplicity="*" />
+    <End Type="GCIModelo.CtaCte" Role="CtaCte" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Cuota" Abstract="true">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <NavigationProperty Name="Profesional" Relationship="GCIModelo.ProfesionalCuota" FromRole="Cuota" ToRole="Profesional" />
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Boolean" Name="estado" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Factura" BaseType="GCIModelo.Comprobante">
+    <Property Type="Int32" Name="numero" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="cantidad" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <Property Type="Decimal" Name="precio_unitario" Nullable="false" />
+    <Property Type="Decimal" Name="importe" Nullable="false" />
+    <Property Type="Decimal" Name="total" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tipo_Movimiento">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Movimientos" Relationship="GCIModelo.Tipo_MovimientoMovimiento" FromRole="Tipo_Movimiento" ToRole="Movimiento" />
+  </EntityType>
+  <Association Name="Tipo_MovimientoMovimiento">
+    <End Type="GCIModelo.Tipo_Movimiento" Role="Tipo_Movimiento" Multiplicity="1" />
+    <End Type="GCIModelo.Movimiento" Role="Movimiento" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Auditoria">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="usuario" Nullable="false" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <Property Type="String" Name="accion" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comprobante" Abstract="true">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Movimientos" Relationship="GCIModelo.ComprobanteMovimiento" FromRole="Comprobante" ToRole="Movimiento" />
+  </EntityType>
+  <Association Name="ComprobanteMovimiento">
+    <End Type="GCIModelo.Comprobante" Role="Comprobante" Multiplicity="1" />
+    <End Type="GCIModelo.Movimiento" Role="Movimiento" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Localidad">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="nombre" Nullable="false" />
+    <NavigationProperty Name="Provincia" Relationship="GCIModelo.ProvinciaLocalidades" FromRole="Localidad" ToRole="Provincia" />
+    <Property Type="Int32" Name="cp" Nullable="false" />
+    <NavigationProperty Name="Direcciones" Relationship="GCIModelo.LocalidadDireccion" FromRole="Localidad" ToRole="Direccion" />
+  </EntityType>
+  <EntityType Name="Provincia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Localidades" Relationship="GCIModelo.ProvinciaLocalidades" FromRole="Provincia" ToRole="Localidad" />
+    <Property Type="String" Name="nombre" Nullable="false" />
+  </EntityType>
+  <Association Name="ProvinciaLocalidades">
+    <End Type="GCIModelo.Provincia" Role="Provincia" Multiplicity="1" />
+    <End Type="GCIModelo.Localidad" Role="Localidad" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Profesionales" Relationship="GCIModelo.EstadoProfesional" FromRole="Estado" ToRole="Profesional" />
+  </EntityType>
+  <EntityType Name="Tipo_Matricula">
+    <Documentation>
+      <LongDescription>Vendría a ser la condición en la que se encuentra el profesional con el colegio</LongDescription>
+    </Documentation>
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Profesionales" Relationship="GCIModelo.Tipo_MatriculaProfesional" FromRole="Tipo_Matricula" ToRole="Profesional" />
+  </EntityType>
+  <EntityType Name="Colegio">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Profesionales" Relationship="GCIModelo.ColegioProfesional" FromRole="Colegio" ToRole="Profesional" />
+  </EntityType>
+  <EntityType Name="Historial">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="estado" Nullable="false" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <NavigationProperty Name="Profesional" Relationship="GCIModelo.ProfesionalHistoriales" FromRole="Historial" ToRole="Profesional" />
+    <Property Type="String" Name="tipo_matricula" Nullable="false" />
+    <Property Type="String" Name="observaciones" Nullable="false" />
+  </EntityType>
+  <Association Name="ProfesionalHistoriales">
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="1" />
+    <End Type="GCIModelo.Historial" Role="Historial" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Titulo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <Property Type="String" Name="ley_aprobacion" Nullable="false" />
+    <Property Type="String" Name="res_coneau" Nullable="false" />
+    <Property Type="String" Name="validez" Nullable="false" />
+    <Property Type="String" Name="aprobacion_cie" Nullable="false" />
+    <NavigationProperty Name="Jurisdiccion" Relationship="GCIModelo.JurisdiccionTitulo" FromRole="Titulo" ToRole="Jurisdiccion" />
+    <NavigationProperty Name="Modalidad" Relationship="GCIModelo.ModalidadTitulo" FromRole="Titulo" ToRole="Modalidad" />
+    <NavigationProperty Name="Nivel" Relationship="GCIModelo.NivelTitulo" FromRole="Titulo" ToRole="Nivel" />
+    <NavigationProperty Name="Especialidad" Relationship="GCIModelo.EspecialidadTitulo" FromRole="Titulo" ToRole="Especialidad" />
+    <NavigationProperty Name="Universidad" Relationship="GCIModelo.UniversidadTitulo" FromRole="Titulo" ToRole="Universidad" />
+    <NavigationProperty Name="Legajos_Academicos" Relationship="GCIModelo.TituloLegajo_Academico" FromRole="Titulo" ToRole="Legajo_Academico" />
+  </EntityType>
+  <EntityType Name="Universidad">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Titulos" Relationship="GCIModelo.UniversidadTitulo" FromRole="Universidad" ToRole="Titulo" />
+  </EntityType>
+  <EntityType Name="Jurisdiccion">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Titulos" Relationship="GCIModelo.JurisdiccionTitulo" FromRole="Jurisdiccion" ToRole="Titulo" />
+  </EntityType>
+  <EntityType Name="Modalidad">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Titulos" Relationship="GCIModelo.ModalidadTitulo" FromRole="Modalidad" ToRole="Titulo" />
+  </EntityType>
+  <EntityType Name="Nivel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Titulos" Relationship="GCIModelo.NivelTitulo" FromRole="Nivel" ToRole="Titulo" />
+  </EntityType>
+  <EntityType Name="Especialidad">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Titulos" Relationship="GCIModelo.EspecialidadTitulo" FromRole="Especialidad" ToRole="Titulo" />
+  </EntityType>
+  <EntityType Name="Plan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="año" Nullable="false" />
+    <Property Type="String" Name="ordenanza" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="Max" />
+    <Property Type="String" Name="incumbencia" Nullable="false" MaxLength="Max" />
+    <NavigationProperty Name="Legajos_Academicos" Relationship="GCIModelo.PlanLegajo_Academico" FromRole="Plan" ToRole="Legajo_Academico" />
+  </EntityType>
+  <EntityType Name="Tipo_Certificado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <Property Type="String" Name="texto" Nullable="false" MaxLength="Max" />
+  </EntityType>
+  <EntityType Name="Direccion">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="direccion" Nullable="false" />
+    <NavigationProperty Name="Profesional" Relationship="GCIModelo.ProfesionalDirecciones" FromRole="Direccion" ToRole="Profesional" />
+    <NavigationProperty Name="Localidad" Relationship="GCIModelo.LocalidadDireccion" FromRole="Direccion" ToRole="Localidad" />
+  </EntityType>
+  <Association Name="ProfesionalDirecciones">
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="1" />
+    <End Type="GCIModelo.Direccion" Role="Direccion" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Tipo_Documento">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Profesionales" Relationship="GCIModelo.Tipo_DocumentoProfesional" FromRole="Tipo_Documento" ToRole="Profesional" />
+  </EntityType>
+  <EntityType Name="Matricula">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Profesional" Relationship="GCIModelo.ProfesionalMatricula" FromRole="Matricula" ToRole="Profesional" />
+    <Property Type="String" Name="icie" />
+    <Property Type="Boolean" Name="certificado" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_doc" Nullable="false" />
+    <Property Type="Boolean" Name="incumbencia" Nullable="false" />
+    <Property Type="Boolean" Name="plan" Nullable="false" />
+    <Property Type="Boolean" Name="analitico" Nullable="false" />
+    <NavigationProperty Name="Legajo_Academico" Relationship="GCIModelo.MatriculaLegajo_Academico" FromRole="Matricula" ToRole="Legajo_Academico" />
+  </EntityType>
+  <Association Name="ProfesionalMatricula">
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="1" />
+    <End Type="GCIModelo.Matricula" Role="Matricula" Multiplicity="*" />
+  </Association>
+  <Association Name="Tipo_DocumentoProfesional">
+    <End Type="GCIModelo.Tipo_Documento" Role="Tipo_Documento" Multiplicity="1" />
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="*" />
+  </Association>
+  <Association Name="EstadoProfesional">
+    <End Type="GCIModelo.Estado" Role="Estado" Multiplicity="1" />
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="*" />
+  </Association>
+  <Association Name="ColegioProfesional">
+    <End Type="GCIModelo.Colegio" Role="Colegio" Multiplicity="0..1" />
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="*" />
+  </Association>
+  <Association Name="Tipo_MatriculaProfesional">
+    <End Type="GCIModelo.Tipo_Matricula" Role="Tipo_Matricula" Multiplicity="1" />
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="*" />
+  </Association>
+  <Association Name="JurisdiccionTitulo">
+    <End Type="GCIModelo.Jurisdiccion" Role="Jurisdiccion" Multiplicity="1" />
+    <End Type="GCIModelo.Titulo" Role="Titulo" Multiplicity="*" />
+  </Association>
+  <Association Name="ModalidadTitulo">
+    <End Type="GCIModelo.Modalidad" Role="Modalidad" Multiplicity="1" />
+    <End Type="GCIModelo.Titulo" Role="Titulo" Multiplicity="*" />
+  </Association>
+  <Association Name="NivelTitulo">
+    <End Type="GCIModelo.Nivel" Role="Nivel" Multiplicity="1" />
+    <End Type="GCIModelo.Titulo" Role="Titulo" Multiplicity="*" />
+  </Association>
+  <Association Name="EspecialidadTitulo">
+    <End Type="GCIModelo.Especialidad" Role="Especialidad" Multiplicity="1" />
+    <End Type="GCIModelo.Titulo" Role="Titulo" Multiplicity="*" />
+  </Association>
+  <Association Name="UniversidadTitulo">
+    <End Type="GCIModelo.Universidad" Role="Universidad" Multiplicity="1" />
+    <End Type="GCIModelo.Titulo" Role="Titulo" Multiplicity="*" />
+  </Association>
+  <Association Name="LocalidadDireccion">
+    <End Type="GCIModelo.Localidad" Role="Localidad" Multiplicity="1" />
+    <End Type="GCIModelo.Direccion" Role="Direccion" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Legajo_Academico">
+    <Documentation>
+      <LongDescription>Es una entidad que me permite vincular a los planes con los titulos.</LongDescription>
+    </Documentation>
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Matriculas" Relationship="GCIModelo.MatriculaLegajo_Academico" FromRole="Legajo_Academico" ToRole="Matricula" />
+    <NavigationProperty Name="Plan" Relationship="GCIModelo.PlanLegajo_Academico" FromRole="Legajo_Academico" ToRole="Plan" />
+    <NavigationProperty Name="Titulo" Relationship="GCIModelo.TituloLegajo_Academico" FromRole="Legajo_Academico" ToRole="Titulo" />
+  </EntityType>
+  <Association Name="MatriculaLegajo_Academico">
+    <End Type="GCIModelo.Matricula" Role="Matricula" Multiplicity="*" />
+    <End Type="GCIModelo.Legajo_Academico" Role="Legajo_Academico" Multiplicity="1" />
+  </Association>
+  <Association Name="PlanLegajo_Academico">
+    <End Type="GCIModelo.Plan" Role="Plan" Multiplicity="1" />
+    <End Type="GCIModelo.Legajo_Academico" Role="Legajo_Academico" Multiplicity="*" />
+  </Association>
+  <Association Name="TituloLegajo_Academico">
+    <End Type="GCIModelo.Titulo" Role="Titulo" Multiplicity="1" />
+    <End Type="GCIModelo.Legajo_Academico" Role="Legajo_Academico" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Anual" BaseType="GCIModelo.Cuota" />
+  <EntityType Name="Bimensual" BaseType="GCIModelo.Cuota" />
+  <EntityType Name="Modificador" Abstract="true" BaseType="GCIModelo.Cuota" />
+  <EntityType Name="Descuento_Anual" BaseType="GCIModelo.Modificador" />
+  <EntityType Name="Con_Recargo" BaseType="GCIModelo.Modificador" />
+  <EntityType Name="Alterador">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Double" Name="porcentaje_recargo" Nullable="false" />
+    <Property Type="Int32" Name="dias_gracias" Nullable="false" />
+    <Property Type="Double" Name="valor_cuota" Nullable="false" />
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Boleta" BaseType="GCIModelo.Comprobante">
+    <Property Type="Int32" Name="numero" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Expediente" Abstract="true">
+    <Key>
+      <PropertyRef Name="numero" />
+    </Key>
+    <Property Type="Int32" Name="numero" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="estado" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_devolucion" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_recepcion" Nullable="false" />
+    <Property Type="Boolean" Name="tipo_aporte" Nullable="false" />
+    <Property Type="DateTime" Name="fecha_aprobacion" Nullable="false" />
+    <NavigationProperty Name="Liquidaciones" Relationship="GCIModelo.ExpedienteLiquidacion" FromRole="Expediente" ToRole="Liquidacion" />
+    <NavigationProperty Name="Profesionales" Relationship="GCIModelo.ProfesionalExpediente" FromRole="Expediente" ToRole="Profesional" />
+    <NavigationProperty Name="Comitente" Relationship="GCIModelo.ComitenteExpediente" FromRole="Expediente" ToRole="Comitente" />
+    <NavigationProperty Name="Tarea" Relationship="GCIModelo.TareaExpediente" FromRole="Expediente" ToRole="Tarea" />
+  </EntityType>
+  <EntityType Name="OI" BaseType="GCIModelo.Expediente">
+    <Property Type="Decimal" Name="monto_obra" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HM" BaseType="GCIModelo.Expediente">
+    <Property Type="Decimal" Name="dias_de_campo" Nullable="false" />
+    <Property Type="Decimal" Name="dias_de_gabinete" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FE" BaseType="GCIModelo.Expediente">
+    <Property Type="Decimal" Name="dias_de_campo" Nullable="false" />
+    <Property Type="Decimal" Name="dias_de_gabinete" Nullable="false" />
+    <Property Type="Decimal" Name="hps" Nullable="false" />
+    <Property Type="Decimal" Name="bocas" Nullable="false" />
+    <Property Type="Decimal" Name="motores" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comitente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="razon_social" Nullable="false" />
+    <NavigationProperty Name="Expedientes" Relationship="GCIModelo.ComitenteExpediente" FromRole="Comitente" ToRole="Expediente" />
+  </EntityType>
+  <EntityType Name="Tarea">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Expedientes" Relationship="GCIModelo.TareaExpediente" FromRole="Tarea" ToRole="Expediente" />
+  </EntityType>
+  <EntityType Name="Liquidacion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="tarea" Nullable="false" />
+    <Property Type="Decimal" Name="cantidad" Nullable="false" />
+    <Property Type="Decimal" Name="importe" Nullable="false" />
+    <NavigationProperty Name="Expediente" Relationship="GCIModelo.ExpedienteLiquidacion" FromRole="Liquidacion" ToRole="Expediente" />
+  </EntityType>
+  <Association Name="ExpedienteLiquidacion">
+    <End Type="GCIModelo.Expediente" Role="Expediente" Multiplicity="1" />
+    <End Type="GCIModelo.Liquidacion" Role="Liquidacion" Multiplicity="*" />
+  </Association>
+  <Association Name="ProfesionalExpediente">
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="*" />
+    <End Type="GCIModelo.Expediente" Role="Expediente" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Comision" Relationship="GCIModelo.ComisionCurso" FromRole="Curso" ToRole="Comision" />
+    <NavigationProperty Name="Docente" Relationship="GCIModelo.DocenteCurso" FromRole="Curso" ToRole="Docente" />
+    <Property Type="Int32" Name="asistentes" Nullable="false" />
+    <Property Type="Int32" Name="cupo" Nullable="false" />
+    <Property Type="Int32" Name="objetivo" Nullable="false" />
+    <Property Type="Boolean" Name="arancelado" Nullable="false" />
+    <Property Type="Decimal" Name="costo" Nullable="false" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <NavigationProperty Name="Clases" Relationship="GCIModelo.CursoClase" FromRole="Curso" ToRole="Clase" />
+  </EntityType>
+  <EntityType Name="Comision">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Cursos" Relationship="GCIModelo.ComisionCurso" FromRole="Comision" ToRole="Curso" />
+    <Property Type="String" Name="descripcion" Nullable="false" />
+    <Property Type="Decimal" Name="dinero_asignado" Nullable="false" />
+    <Property Type="Decimal" Name="dinero_gastado" Nullable="false" />
+  </EntityType>
+  <Association Name="ComisionCurso">
+    <End Type="GCIModelo.Comision" Role="Comision" Multiplicity="1" />
+    <End Type="GCIModelo.Curso" Role="Curso" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Docente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Cursos" Relationship="GCIModelo.DocenteCurso" FromRole="Docente" ToRole="Curso" />
+    <Property Type="String" Name="nombre_apellido" Nullable="false" />
+  </EntityType>
+  <Association Name="DocenteCurso">
+    <End Type="GCIModelo.Docente" Role="Docente" Multiplicity="1" />
+    <End Type="GCIModelo.Curso" Role="Curso" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Clase">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <NavigationProperty Name="Curso" Relationship="GCIModelo.CursoClase" FromRole="Clase" ToRole="Curso" />
+    <NavigationProperty Name="Asistencias" Relationship="GCIModelo.ClaseAsistencia" FromRole="Clase" ToRole="Asistencia" />
+  </EntityType>
+  <Association Name="CursoClase">
+    <End Type="GCIModelo.Curso" Role="Curso" Multiplicity="1" />
+    <End Type="GCIModelo.Clase" Role="Clase" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Asistencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Profesional" Relationship="GCIModelo.ProfesionalAsistencia" FromRole="Asistencia" ToRole="Profesional" />
+    <Property Type="Boolean" Name="presente" Nullable="false" />
+    <NavigationProperty Name="Clase" Relationship="GCIModelo.ClaseAsistencia" FromRole="Asistencia" ToRole="Clase" />
+  </EntityType>
+  <Association Name="ProfesionalAsistencia">
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="1" />
+    <End Type="GCIModelo.Asistencia" Role="Asistencia" Multiplicity="*" />
+  </Association>
+  <Association Name="ClaseAsistencia">
+    <End Type="GCIModelo.Clase" Role="Clase" Multiplicity="1" />
+    <End Type="GCIModelo.Asistencia" Role="Asistencia" Multiplicity="*" />
+  </Association>
+  <Association Name="ProfesionalCuota">
+    <End Type="GCIModelo.Profesional" Role="Profesional" Multiplicity="1" />
+    <End Type="GCIModelo.Cuota" Role="Cuota" Multiplicity="*" />
+  </Association>
+  <Association Name="ComitenteExpediente">
+    <End Type="GCIModelo.Comitente" Role="Comitente" Multiplicity="1" />
+    <End Type="GCIModelo.Expediente" Role="Expediente" Multiplicity="*" />
+  </Association>
+  <Association Name="TareaExpediente">
+    <End Type="GCIModelo.Tarea" Role="Tarea" Multiplicity="1" />
+    <End Type="GCIModelo.Expediente" Role="Expediente" Multiplicity="*" />
+  </Association>
+</Schema>

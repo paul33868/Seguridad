@@ -1,0 +1,113 @@
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI\GCI\Controladora\obj\Debug\Controladora.pdb
+D:\UAI\GCI\Controladora\obj\Debug\ResolveAssemblyReference.cache
+D:\UAI\GCI\Controladora\obj\Debug\Controladora.dll
+D:\UAI\GCI\Controladora\obj\Debug\Controladora.pdb
+D:\UAI\GCI\Controladora\bin\Debug\Controladora.dll
+D:\UAI\GCI\Controladora\bin\Debug\Controladora.pdb
+D:\UAI\GCI\Controladora\bin\Debug\Modelo_Entidades.dll
+D:\UAI\GCI\Controladora\bin\Debug\Modelo_Entidades.pdb
+D:\UAI\3º Año\TC y TD\GCI\Controladora\obj\Debug\ResolveAssemblyReference.cache
+F:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Controladora.dll
+F:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Controladora.pdb
+F:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Modelo_Entidades.dll
+F:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Modelo_Entidades.pdb
+F:\Users\Pablo\Desktop\GCI\Controladora\obj\Debug\Controladora.csprojResolveAssemblyReference.cache
+F:\Users\Pablo\Desktop\GCI\Controladora\obj\Debug\Controladora.dll
+F:\Users\Pablo\Desktop\GCI\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\bin\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\obj\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI nuevo\Controladora\obj\Debug\Controladora.pdb
+F:\GCI nuevo\Controladora\obj\Debug\ResolveAssemblyReference.cache
+F:\GCI nuevo\Controladora\obj\Debug\Controladora.dll
+F:\GCI nuevo\Controladora\obj\Debug\Controladora.pdb
+F:\GCI nuevo\Controladora\bin\Debug\Controladora.dll
+F:\GCI nuevo\Controladora\bin\Debug\Controladora.pdb
+F:\GCI nuevo\Controladora\bin\Debug\Modelo_Entidades.dll
+F:\GCI nuevo\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\obj\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI nuevo con bd\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI nuevo con bd\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI con startegy\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\obj\Debug\Controladora.dll
+C:\Users\Navegador\Desktop\GCI Actual\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI Actual\Controladora\obj\Debug\Controladora.pdb
+F:\UAI\TCyTD\GCI\Controladora\bin\Debug\Controladora.dll
+F:\UAI\TCyTD\GCI\Controladora\bin\Debug\Controladora.pdb
+F:\UAI\TCyTD\GCI\Controladora\bin\Debug\Modelo_Entidades.dll
+F:\UAI\TCyTD\GCI\Controladora\bin\Debug\Modelo_Entidades.pdb
+F:\UAI\TCyTD\GCI\Controladora\obj\Debug\ResolveAssemblyReference.cache
+F:\UAI\TCyTD\GCI\Controladora\obj\Debug\Controladora.dll
+F:\UAI\TCyTD\GCI\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI 1\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI 1\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI 1\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI 1\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI 1\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI 1\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI 1\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI  Back up\Controladora\obj\Debug\Controladora.pdb
+G:\UAI\TCyTD\GCI\Controladora\bin\Debug\Controladora.dll
+G:\UAI\TCyTD\GCI\Controladora\bin\Debug\Controladora.pdb
+G:\UAI\TCyTD\GCI\Controladora\bin\Debug\Modelo_Entidades.dll
+G:\UAI\TCyTD\GCI\Controladora\bin\Debug\Modelo_Entidades.pdb
+G:\UAI\TCyTD\GCI\Controladora\obj\Debug\ResolveAssemblyReference.cache
+G:\UAI\TCyTD\GCI\Controladora\obj\Debug\Controladora.dll
+G:\UAI\TCyTD\GCI\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Desktop\GCI\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Desktop\GCI\Controladora\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\GCI\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Desktop\GCI\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\bin\Debug\Controladora.dll
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\bin\Debug\Modelo_Entidades.dll
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\bin\Debug\Modelo_Entidades.pdb
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\obj\Debug\Controladora.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\obj\Debug\Controladora.dll
+C:\Users\Pablo\Downloads\Modulo de Seguridad\Controladora\obj\Debug\Controladora.pdb

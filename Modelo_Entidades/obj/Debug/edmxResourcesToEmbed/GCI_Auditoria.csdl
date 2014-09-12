@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="GCI_Auditoria" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="GCI_AuditoriaContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Auditorias_Log" EntityType="GCI_Auditoria.Auditoria_Log" />
+  </EntityContainer>
+  <EntityType Name="Auditoria_Log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="usuario" Nullable="false" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <Property Type="String" Name="accion" Nullable="false" />
+  </EntityType>
+</Schema>

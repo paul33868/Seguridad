@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GCIModeloStoreContainer" CdmEntityContainer="GCIEntidades">
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Usuario)">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre_apellido" ColumnName="nombre_apellido" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grupos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Grupo)">
+        <MappingFragment StoreEntitySet="Grupos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perfiles">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Perfil)">
+        <MappingFragment StoreEntitySet="Perfiles">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permisos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Permiso)">
+        <MappingFragment StoreEntitySet="Permisos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Formularios">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Formulario)">
+        <MappingFragment StoreEntitySet="Formularios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="nombredemuestra" ColumnName="nombredemuestra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modulos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Modulo)">
+        <MappingFragment StoreEntitySet="Modulos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profesionales">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Profesional)">
+        <MappingFragment StoreEntitySet="Profesionales">
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="nombre_apellido" ColumnName="nombre_apellido" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="email1" ColumnName="email1" />
+          <ScalarProperty Name="email2" ColumnName="email2" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="lugar_trabajo" ColumnName="lugar_trabajo" />
+          <ScalarProperty Name="convenio_año" ColumnName="convenio_año" />
+          <ScalarProperty Name="titulo_a_mostrar" ColumnName="titulo_a_mostrar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CtasCtes">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.CtaCte)">
+        <MappingFragment StoreEntitySet="CtasCtes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="saldo" ColumnName="saldo" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movimientos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Movimiento)">
+        <MappingFragment StoreEntitySet="Movimientos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conceptos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Concepto)">
+        <MappingFragment StoreEntitySet="Conceptos">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Cuota)">
+        <MappingFragment StoreEntitySet="Conceptos_Cuota">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="vto_1" ColumnName="vto_1" />
+          <ScalarProperty Name="vto_2" ColumnName="vto_2" />
+          <ScalarProperty Name="intereses" ColumnName="intereses" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipos_Movimientos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Tipo_Movimiento)">
+        <MappingFragment StoreEntitySet="Tipos_Movimientos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Auditorias">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Auditoria)">
+        <MappingFragment StoreEntitySet="Auditorias">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="accion" ColumnName="accion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comprobantes">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Comprobante)">
+        <MappingFragment StoreEntitySet="Comprobantes">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Factura)">
+        <MappingFragment StoreEntitySet="Comprobantes_Factura">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="precio_unitario" ColumnName="precio_unitario" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Localidades">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Localidad)">
+        <MappingFragment StoreEntitySet="Localidades">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="cp" ColumnName="cp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provincias">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Provincia)">
+        <MappingFragment StoreEntitySet="Provincias">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estados">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Estado)">
+        <MappingFragment StoreEntitySet="Estados">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipos_Matriculas">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Tipo_Matricula)">
+        <MappingFragment StoreEntitySet="Tipos_Matriculas">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Colegios">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Colegio)">
+        <MappingFragment StoreEntitySet="Colegios">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Historiales">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Historial)">
+        <MappingFragment StoreEntitySet="Historiales">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="tipo_matricula" ColumnName="tipo_matricula" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Titulos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Titulo)">
+        <MappingFragment StoreEntitySet="Titulos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="ley_aprobacion" ColumnName="ley_aprobacion" />
+          <ScalarProperty Name="res_coneau" ColumnName="res_coneau" />
+          <ScalarProperty Name="validez" ColumnName="validez" />
+          <ScalarProperty Name="aprobacion_cie" ColumnName="aprobacion_cie" />
+          <ScalarProperty Name="articulacion" ColumnName="articulacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Universidades">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Universidad)">
+        <MappingFragment StoreEntitySet="Universidades">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jurisdicciones">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Jurisdiccion)">
+        <MappingFragment StoreEntitySet="Jurisdicciones">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modalidades">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Modalidad)">
+        <MappingFragment StoreEntitySet="Modalidades">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Niveles">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Nivel)">
+        <MappingFragment StoreEntitySet="Niveles">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Especialidades">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Especialidad)">
+        <MappingFragment StoreEntitySet="Especialidades">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Planes">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Plan)">
+        <MappingFragment StoreEntitySet="Planes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="año" ColumnName="año" />
+          <ScalarProperty Name="ordenanza" ColumnName="ordenanza" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="incumbencia" ColumnName="incumbencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipos_Certificados">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Tipo_Certificado)">
+        <MappingFragment StoreEntitySet="Tipos_Certificados">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="texto" ColumnName="texto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Direcciones">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Direccion)">
+        <MappingFragment StoreEntitySet="Direcciones">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipos_Documentos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Tipo_Documento)">
+        <MappingFragment StoreEntitySet="Tipos_Documentos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Matriculas">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Matricula)">
+        <MappingFragment StoreEntitySet="Matriculas">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="icie" ColumnName="icie" />
+          <ScalarProperty Name="certificado" ColumnName="certificado" />
+          <ScalarProperty Name="fecha_doc" ColumnName="fecha_doc" />
+          <ScalarProperty Name="incumbencia" ColumnName="incumbencia" />
+          <ScalarProperty Name="plan" ColumnName="plan" />
+          <ScalarProperty Name="analitico" ColumnName="analitico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Legajos_Academicos">
+      <EntityTypeMapping TypeName="IsTypeOf(GCIModelo.Legajo_Academico)">
+        <MappingFragment StoreEntitySet="Legajos_Academicos">
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UsuariosGrupos" TypeName="GCIModelo.UsuarioGrupo" StoreEntitySet="UsuariosGrupos">
+      <EndProperty Name="Usuario">
+        <ScalarProperty Name="id" ColumnName="Usuarios_id" />
+      </EndProperty>
+      <EndProperty Name="Grupo">
+        <ScalarProperty Name="id" ColumnName="Grupos_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PerfilesGrupos" TypeName="GCIModelo.PerfilGrupo" StoreEntitySet="Perfiles">
+      <EndProperty Name="Grupo">
+        <ScalarProperty Name="id" ColumnName="Grupo_id" />
+      </EndProperty>
+      <EndProperty Name="Perfil">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PerfilesPermisos" TypeName="GCIModelo.PerfilPermiso" StoreEntitySet="Perfiles">
+      <EndProperty Name="Permiso">
+        <ScalarProperty Name="id" ColumnName="Permiso_id" />
+      </EndProperty>
+      <EndProperty Name="Perfil">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PerfilesFormularios" TypeName="GCIModelo.PerfilFormulario" StoreEntitySet="Perfiles">
+      <EndProperty Name="Formulario">
+        <ScalarProperty Name="id" ColumnName="Formulario_id" />
+      </EndProperty>
+      <EndProperty Name="Perfil">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FormulariosModulos" TypeName="GCIModelo.FormularioModulo" StoreEntitySet="Formularios">
+      <EndProperty Name="Modulo">
+        <ScalarProperty Name="id" ColumnName="Modulo_id" />
+      </EndProperty>
+      <EndProperty Name="Formulario">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="CtasCtesProfesionales" TypeName="GCIModelo.CtaCteProfesional" StoreEntitySet="CtasCtes">
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="Profesional_dni" />
+      </EndProperty>
+      <EndProperty Name="CtaCte">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MovimientosCtaCtes" TypeName="GCIModelo.MovimientoCtaCte" StoreEntitySet="Movimientos">
+      <EndProperty Name="CtaCte">
+        <ScalarProperty Name="id" ColumnName="CtaCte_id" />
+      </EndProperty>
+      <EndProperty Name="Movimiento">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MovimientosConceptos" TypeName="GCIModelo.MovimientoConcepto" StoreEntitySet="Movimientos">
+      <EndProperty Name="Concepto">
+        <ScalarProperty Name="id" ColumnName="Concepto_id" />
+      </EndProperty>
+      <EndProperty Name="Movimiento">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Tipo_MovimientoMovimiento" TypeName="GCIModelo.Tipo_MovimientoMovimiento" StoreEntitySet="Movimientos">
+      <EndProperty Name="Tipo_Movimiento">
+        <ScalarProperty Name="id" ColumnName="Tipo_Movimiento_id" />
+      </EndProperty>
+      <EndProperty Name="Movimiento">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ComprobantesMovimientos" TypeName="GCIModelo.ComprobanteMovimiento" StoreEntitySet="Comprobantes">
+      <EndProperty Name="Movimiento">
+        <ScalarProperty Name="id" ColumnName="Movimiento_id" />
+      </EndProperty>
+      <EndProperty Name="Comprobante">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProvinciasLocalidades" TypeName="GCIModelo.ProvinciaLocalidades" StoreEntitySet="Localidades">
+      <EndProperty Name="Provincia">
+        <ScalarProperty Name="id" ColumnName="Provincia_id" />
+      </EndProperty>
+      <EndProperty Name="Localidad">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProfesionalesHistoriales" TypeName="GCIModelo.ProfesionalHistoriales" StoreEntitySet="Historiales">
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="Profesional_dni" />
+      </EndProperty>
+      <EndProperty Name="Historial">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProfesionalesDirecciones" TypeName="GCIModelo.ProfesionalDirecciones" StoreEntitySet="Direcciones">
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="Profesional_dni" />
+      </EndProperty>
+      <EndProperty Name="Direccion">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProfesionalesMatriculas" TypeName="GCIModelo.ProfesionalMatricula" StoreEntitySet="Matriculas">
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="Profesional_dni" />
+      </EndProperty>
+      <EndProperty Name="Matricula">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Tipos_DocumentosProfesionales" TypeName="GCIModelo.Tipo_DocumentoProfesional" StoreEntitySet="Profesionales">
+      <EndProperty Name="Tipo_Documento">
+        <ScalarProperty Name="id" ColumnName="Tipo_Documento_id" />
+      </EndProperty>
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="dni" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EstadosProfesionales" TypeName="GCIModelo.EstadoProfesional" StoreEntitySet="Profesionales">
+      <EndProperty Name="Estado">
+        <ScalarProperty Name="id" ColumnName="Estado_id" />
+      </EndProperty>
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="dni" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ColegiosProfesionales" TypeName="GCIModelo.ColegioProfesional" StoreEntitySet="Profesionales">
+      <EndProperty Name="Colegio">
+        <ScalarProperty Name="id" ColumnName="Colegio_id" />
+      </EndProperty>
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="dni" />
+      </EndProperty>
+      <Condition ColumnName="Colegio_id" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Tipos_MatriculasProfesionales" TypeName="GCIModelo.Tipo_MatriculaProfesional" StoreEntitySet="Profesionales">
+      <EndProperty Name="Tipo_Matricula">
+        <ScalarProperty Name="id" ColumnName="Tipo_Matricula_id" />
+      </EndProperty>
+      <EndProperty Name="Profesional">
+        <ScalarProperty Name="dni" ColumnName="dni" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="JurisdiccionTitulo" TypeName="GCIModelo.JurisdiccionTitulo" StoreEntitySet="Titulos">
+      <EndProperty Name="Jurisdiccion">
+        <ScalarProperty Name="id" ColumnName="Jurisdiccion_id" />
+      </EndProperty>
+      <EndProperty Name="Titulo">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ModalidadTitulo" TypeName="GCIModelo.ModalidadTitulo" StoreEntitySet="Titulos">
+      <EndProperty Name="Modalidad">
+        <ScalarProperty Name="id" ColumnName="Modalidad_id" />
+      </EndProperty>
+      <EndProperty Name="Titulo">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="NivelTitulo" TypeName="GCIModelo.NivelTitulo" StoreEntitySet="Titulos">
+      <EndProperty Name="Nivel">
+        <ScalarProperty Name="id" ColumnName="Nivel_id" />
+      </EndProperty>
+      <EndProperty Name="Titulo">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EspecialidadesTitulos" TypeName="GCIModelo.EspecialidadTitulo" StoreEntitySet="Titulos">
+      <EndProperty Name="Especialidad">
+        <ScalarProperty Name="id" ColumnName="Especialidad_id" />
+      </EndProperty>
+      <EndProperty Name="Titulo">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UniversidadesTitulos" TypeName="GCIModelo.UniversidadTitulo" StoreEntitySet="Titulos">
+      <EndProperty Name="Universidad">
+        <ScalarProperty Name="id" ColumnName="Universidad_id" />
+      </EndProperty>
+      <EndProperty Name="Titulo">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="LocalidadesDirecciones" TypeName="GCIModelo.LocalidadDireccion" StoreEntitySet="Direcciones">
+      <EndProperty Name="Localidad">
+        <ScalarProperty Name="id" ColumnName="Localidad_id" />
+      </EndProperty>
+      <EndProperty Name="Direccion">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MatriculaLegajo_Academico" TypeName="GCIModelo.MatriculaLegajo_Academico" StoreEntitySet="Matriculas">
+      <EndProperty Name="Legajo_Academico">
+        <ScalarProperty Name="id" ColumnName="Legajo_Academico_id" />
+      </EndProperty>
+      <EndProperty Name="Matricula">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PlanesLegajos_Academicos" TypeName="GCIModelo.PlanLegajo_Academico" StoreEntitySet="Legajos_Academicos">
+      <EndProperty Name="Plan">
+        <ScalarProperty Name="id" ColumnName="Plan_id" />
+      </EndProperty>
+      <EndProperty Name="Legajo_Academico">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TitulosLegajos_Academicos" TypeName="GCIModelo.TituloLegajo_Academico" StoreEntitySet="Legajos_Academicos">
+      <EndProperty Name="Titulo">
+        <ScalarProperty Name="id" ColumnName="Titulo_id" />
+      </EndProperty>
+      <EndProperty Name="Legajo_Academico">
+        <ScalarProperty Name="id" ColumnName="id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

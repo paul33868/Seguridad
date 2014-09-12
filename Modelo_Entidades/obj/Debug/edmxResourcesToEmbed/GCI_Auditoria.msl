@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GCI_AuditoriaStoreContainer" CdmEntityContainer="GCI_AuditoriaContainer">
+    <EntitySetMapping Name="Auditorias_Log">
+      <EntityTypeMapping TypeName="IsTypeOf(GCI_Auditoria.Auditoria_Log)">
+        <MappingFragment StoreEntitySet="Auditorias_Log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="accion" ColumnName="accion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

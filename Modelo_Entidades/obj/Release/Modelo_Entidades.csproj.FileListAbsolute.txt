@@ -1,0 +1,18 @@
+F:\GCI nuevo\Modelo_Entidades\bin\Release\Modelo_Entidades.dll.config
+F:\GCI nuevo\Modelo_Entidades\bin\Release\Modelo_Entidades.dll
+F:\GCI nuevo\Modelo_Entidades\bin\Release\Modelo_Entidades.pdb
+F:\GCI nuevo\Modelo_Entidades\obj\Release\ResolveAssemblyReference.cache
+F:\GCI nuevo\Modelo_Entidades\obj\Release\Modelo_Entidades.dll
+F:\GCI nuevo\Modelo_Entidades\obj\Release\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Modelo_Entidades\bin\Release\Modelo_Entidades.dll.config
+C:\Users\Navegador\Desktop\GCI Actual\Modelo_Entidades\bin\Release\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI Actual\Modelo_Entidades\bin\Release\Modelo_Entidades.pdb
+C:\Users\Navegador\Desktop\GCI Actual\Modelo_Entidades\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\GCI Actual\Modelo_Entidades\obj\Release\Modelo_Entidades.dll
+C:\Users\Navegador\Desktop\GCI Actual\Modelo_Entidades\obj\Release\Modelo_Entidades.pdb
+F:\UAI\TCyTD\GCI\Modelo_Entidades\bin\Release\Modelo_Entidades.dll.config
+F:\UAI\TCyTD\GCI\Modelo_Entidades\bin\Release\Modelo_Entidades.dll
+F:\UAI\TCyTD\GCI\Modelo_Entidades\bin\Release\Modelo_Entidades.pdb
+F:\UAI\TCyTD\GCI\Modelo_Entidades\obj\Release\ResolveAssemblyReference.cache
+F:\UAI\TCyTD\GCI\Modelo_Entidades\obj\Release\Modelo_Entidades.dll
+F:\UAI\TCyTD\GCI\Modelo_Entidades\obj\Release\Modelo_Entidades.pdb
